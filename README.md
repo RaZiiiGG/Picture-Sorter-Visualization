@@ -1,6 +1,9 @@
 <h1 align="center"> 
 Picture Sorter Visualization 📶
 </h1>
+<p align="center"> 
+  <img src="gif/logo.png">
+</p>
 <h2>
   📝 About the project
 </h2>
