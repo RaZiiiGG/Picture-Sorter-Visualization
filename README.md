@@ -11,6 +11,10 @@ Picture Sorter Visualization 📶
   This project is a visualization of five different sorting algorithms using different pictures of nature. It shows how five different sorting methods (<b>Bubble Sort</b>, <b>Insertion Sort</b>, <b>Selection Sort</b>, <b>Heap Sort</b>, and <b>Quick Sort</b>) work using pictures. Although this is a more fun way of visualizing sorting algorithms, it is not the best visualization method when it comes to learning. It features 10 pictures of nature that can be sorted by pressing buttons with a desired algorithm of sorting.
 </p>
 <h2>
+  🎥 Demo
+  <img src="gif/demoBubbleSort.gif">
+</h2> 
+<h2>
   📖 Getting Started
 </h2>
 <p>
