@@ -23,7 +23,7 @@ class Button:
         self.bottom_color = (70,70,70)
 
         # Text
-        self.text_surf = pygame.font.Font('Fonts\JetBrainsMonoNL-Light.ttf', fontSize).render(text, True, '#0F1111')
+        self.text_surf = pygame.font.Font('Fonts/JetBrainsMonoNL-Light.ttf', fontSize).render(text, True, '#0F1111')
         self.text_rect = self.text_surf.get_rect(center = self.top_rect.center)
 
     # Drawing the button
@@ -69,7 +69,7 @@ class Game:
         
         self.clock = pygame.time.Clock()    
         
-        self.img = pygame.image.load('Pictures\picture{}.png'.format(random.randint(1, 10)))
+        self.img = pygame.image.load('Pictures/picture{}.png'.format(random.randint(1, 10)))
         self.listOfBarSizes = []
         self.create_a_list(self.listOfBarSizes)
 
@@ -279,7 +279,7 @@ class Game:
                     #Change Picture Button is being pressed
                     if buttons[2].pressed:
                         random.shuffle(self.listOfBarSizes)
-                        self.img = pygame.image.load('Pictures\picture{}.png'.format(random.randint(1, 10)))  
+                        self.img = pygame.image.load('Pictures/picture{}.png'.format(random.randint(1, 10)))  
                         self.draw_list() 
                     
                     #Buttons for changing sorting algorithm
